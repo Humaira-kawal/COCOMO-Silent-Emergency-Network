@@ -1,34 +1,52 @@
-# COCOMO Cost Estimation
+# Practical 6 - COCOMO Cost Estimation
 
 ## Problem Statement
 
-Silent Emergency Network
-
-## Description
+### Silent Emergency Network
 
 Silent Emergency Network is an emergency response system that allows a user to discreetly send an emergency alert to predefined emergency contacts or authorities along with relevant information such as location, time, and emergency type.
 
-## Practical
+## Objective
 
-Practical 6 - COCOMO Cost Estimation
+To estimate the software development effort and development time for the Silent Emergency Network using the Basic COCOMO model.
 
-## Model Used
+## COCOMO Model
 
-Basic COCOMO Model
+The Basic COCOMO model is used for cost estimation.
+
+### Effort
+
+Effort = a × (KLOC)^b
+
+### Development Time
+
+Development Time = c × (Effort)^d
+
+### Average Staff
+
+Average Staff = Effort / Development Time
+
+## Project Modes
+
+The program supports:
+
+1. Organic
+2. Semi-Detached
+3. Embedded
 
 ## Programming Language
 
 Python
 
-## Files
+## File
 
-- cocomo.py - Python program for COCOMO cost estimation
-- README.md - Project documentation
+`cocomo.py` - Contains the COCOMO cost estimation program.
 
-## Parameters Calculated
+## Output
 
 The program calculates:
 
-- Effort
-- Development Time
+- KLOC
+- Effort in Person-Months
+- Development Time in Months
 - Average Staff Required
